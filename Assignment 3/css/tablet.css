@@ -1,0 +1,256 @@
+@media (max-width: 991.98px) and (min-width: 576px) {
+  .avatar {
+    display: none;
+  }
+  * {
+    margin: 0px;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* tiêu đề trên cùng */
+
+  .img-banner {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
+  .imgbanner {
+    transform: translate(-20%, 0);
+  }
+  #banner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 40%);
+    text-align: center;
+    color: #f7f7f7;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  /* Thanh mục lục đầu bài */
+
+  section .container {
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  #nav-bar {
+    text-align: center;
+    overflow: hidden;
+    height: 40px;
+    justify-content: center;
+  }
+  #nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 30px 25px;
+  }
+  #nav-bar a:hover {
+    background-color: aquamarine;
+    color: rgb(228, 158, 158);
+  }
+  #nav-bar a:active {
+    background-color: aqua;
+    color: #f7f7f7;
+  }
+
+  .nav-bar-border {
+    border-left: solid;
+    border-right: solid;
+    border-color: rgba(186, 192, 192, 0.5);
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  #nav-bar i {
+    position: absolute;
+    left: 5px;
+    top: 40%;
+  }
+  .nav-bar-border1 {
+    padding: 0px 30px;
+  }
+  /* thông tin */
+  .bg-grey {
+    margin: 0 20px;
+  }
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    background-color: #f7f7f7;
+    margin: 0 20px;
+  }
+  #target {
+    margin: 0 20px;
+  }
+  .section-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  span {
+    font-weight: bold;
+  }
+  li {
+    margin: 5px;
+  }
+  #personal-info {
+    background-color: #d1cdcd2d;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 30px;
+  }
+  .mt-40 {
+    list-style-type: none;
+    padding: 0;
+  }
+  .otherweb {
+    padding: 20px 0;
+  }
+  .sec2icon {
+    font-size: 20px;
+    position: absolute;
+  }
+  .habit-icon {
+    padding: 10px 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: solid;
+    border-color: aquamarine;
+  }
+  .item1 {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .item2 {
+    background: #c0b8b87c;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /* chứng chỉ */
+  .container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 25px;
+  }
+  .container3 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  .container3-text p {
+    font-size: 13px;
+  }
+  .container3-border {
+    border-bottom: solid;
+    border-color: #d6c08d;
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    width: 100%;
+  }
+  .container3-borderleft {
+    border-left: solid;
+    border-color: #d6c08d;
+  }
+  .item3 {
+    grid-column: 1/-1;
+  }
+  .container3IMG {
+    width: 70%;
+  }
+  .container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    /* test block */
+    background-color: rgba(218, 243, 243, 0.233);
+    margin: 20px;
+    overflow: hidden;
+    align-items: stretch;
+  }
+  .item4 {
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #199cdb;
+    border-radius: 3em;
+    color: aliceblue;
+    font-size: 13px;
+    align-self: center;
+  }
+  .project-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    padding: 10px;
+    color: rgb(140, 143, 143);
+  }
+  .table-info {
+    display: flex;
+    justify-self: start;
+    color: rgb(140, 143, 143);
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contain4-boder > div {
+    border: solid;
+    border-color: rgba(85, 85, 82, 0.205);
+    padding: auto;
+  }
+  /* footer */
+  .container5 {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+  }
+  .move-top {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+  }
+  .move-top a {
+    text-decoration: none;
+    color: rgb(16, 136, 96);
+  }
+}
